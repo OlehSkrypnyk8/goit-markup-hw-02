@@ -2,6 +2,7 @@
     font-family: "Roboto", sans-serif;
 }
 body {
+    background-color: #FFFFFF;
     color:#2E2F42;
 }
 ul, li {
@@ -136,35 +137,35 @@ a {
 /* our team end */
 
 /* our portfolio start */
+
 .our-portfolio {
-    background-color: #FFFFFF;
+    background-color: #E7E9FC;
 }
 .our-portfolio-head {
     font-weight: 700;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-}
+    color: 2E2F42;
+    }
 .our-portfolio-list {
-    background-color:#E7E9FC ;
+    background-color: #E7E9FC;
 }
-
-.our-portfolio-list-item {}
-
+.our-portfolio-list-item {
+    background-color: E7E9FC;
+}
 .our-portfolio-item-image {}
-
 .our-portfolio-item-head {
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
+    color: 2E2F42;
 }
-
-
-
 .our-portfolio-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* our portfolio end */
 /* footer */
 .footer {
