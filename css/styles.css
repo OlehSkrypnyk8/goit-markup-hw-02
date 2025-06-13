@@ -54,7 +54,15 @@ a {
     color: #2E2F42;
     font-size: 16px;
 }
-
+.header-nav-list-inform  {
+    color: #2e2f42;
+}
+.header-nav-list-inform:hover {
+    color: #404bbf;
+}
+.header-nav-list-inform:focus {
+    color: #404bbf;
+}
 /* Address start */
 .address {
     font-style: normal;
