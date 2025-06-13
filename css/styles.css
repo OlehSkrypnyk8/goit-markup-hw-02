@@ -1,20 +1,23 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
 body {
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
-    color:#2E2F42;
+    color: #2E2F42;
 }
-ul, li {
-        list-style-type: none;
+
+ul,
+li {
+    list-style-type: none;
 }
-p {
-    color: #434455;
-}
+
 a {
     text-decoration: none;
-    color: black;
+    
 }
+
 .header-nav {
     font-weight: 700;
     letter-spacing: 0.3em;
@@ -23,6 +26,7 @@ a {
     color: #2E2F42;
 
 }
+
 .logo-web {
     font-weight: 700;
     letter-spacing: 0.3em;
@@ -32,6 +36,7 @@ a {
     color: #4D5AE5;
     text-transform: uppercase;
 }
+
 .logo-studio {
     font-weight: 700;
     letter-spacing: 0.3em;
@@ -39,27 +44,34 @@ a {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 18px;
-    }
-    .header-nav-list {
+}
+
+.header-nav-list {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2E2F42;
-    }
+}
 
-    /* Address start */
-.address { 
+/* Address start */
+.address {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2E2F42;
 }
+
 .address-list {}
 
 .address-list-item {}
 
-.address-list-item-number {}
+.address-list-item-number {
+    color: #434455;
+}
 
-.address-list-item-mail {}
+.address-list-item-mail {
+    color: #434455;
+}
+
 /* Address end */
 
 /* Hero baner start */
@@ -74,20 +86,20 @@ a {
 
 .hero-baner-button {
     cursor: pointer;
-    background-color:#4D5AE5;
+    background-color: #4D5AE5;
     color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
     font-size: 16px;
 }
+
 /* Hero baner end */
 
 /*  benefits section start */
 .benefits {}
 
-.benefits-list {
-}
+.benefits-list {}
 
 .benefits-list-item {}
 
@@ -104,10 +116,12 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 /* benefits section end */
 
 /* our team strt */
 .our-team {
+    text-align: center;
     background-color: #F4F4FD;
     font-weight: 700;
 }
@@ -134,33 +148,40 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 /* our team end */
 
 /* our portfolio start */
 
 .our-portfolio {
-    background-color: #E7E9FC;
+    background-color: #fff;
 }
+
 .our-portfolio-head {
     font-weight: 700;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: 2E2F42;
-    }
+    color: #2E2F42;
+}
+
 .our-portfolio-list {
-    background-color: #E7E9FC;
+    background-color: #fff;
 }
+
 .our-portfolio-list-item {
-    background-color: E7E9FC;
+    background-color: #fff;
 }
+
 .our-portfolio-item-image {}
+
 .our-portfolio-item-head {
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: 2E2F42;
+    color: #2E2F42;
 }
+
 .our-portfolio-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -170,8 +191,9 @@ a {
 /* footer */
 .footer {
     background-color: #2E2F42;
-    
+
 }
+
 .footer-logo-studio {
     font-weight: 700;
     letter-spacing: 0.3em;
@@ -181,6 +203,7 @@ a {
     font-size: 18px;
     color: #F4F4FD;
 }
+
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
