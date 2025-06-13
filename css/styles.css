@@ -76,7 +76,7 @@ a {
 .address-list-item-link:hover, 
 .address-list-item-link:focus
 {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .address-list-item-link {
