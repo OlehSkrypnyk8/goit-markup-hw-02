@@ -73,19 +73,16 @@ a {
 
 .address-list {}
 
-.address-list-item:hover, 
-.header-nav-list-inform:focus
+.address-list-item-link:hover, 
+.address-list-item-link:focus
 {
     background-color: #404bbf;
 }
 
-.address-list-item-number {
+.address-list-item-link {
     color: #434455;
 }
 
-.address-list-item-mail {
-    color: #434455;
-}
 
 /* Address end */
 
