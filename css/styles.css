@@ -20,7 +20,7 @@ a {
 
 .header-nav {
     font-weight: 700;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     line-height: 1.17;
     font-size: 18px;
     color: #2E2F42;
@@ -29,7 +29,7 @@ a {
 
 .logo-web {
     font-weight: 700;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     line-height: 1.17;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -65,7 +65,12 @@ a {
 
 .address-list {}
 
-.address-list-item {}
+.address-list-item:hover {
+    background-color: #404bbf;
+}
+.address-list-item:focus {
+    background-color: #404bbf;
+}
 
 .address-list-item-number {
     color: #434455;
@@ -150,6 +155,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #fff;
 }
 
 .our-team-list {
