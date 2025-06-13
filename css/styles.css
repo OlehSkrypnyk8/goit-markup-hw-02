@@ -73,10 +73,9 @@ a {
 
 .address-list {}
 
-.address-list-item:hover {
-    background-color: #404bbf;
-}
-.address-list-item:focus {
+.address-list-item:hover, 
+.header-nav-list-inform:focus
+{
     background-color: #404bbf;
 }
 
